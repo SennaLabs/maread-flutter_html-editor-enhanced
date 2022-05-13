@@ -31,7 +31,7 @@
 }
 
 .note-icon-border {
-  border: .08em solid #eee;
+  border: none !important;
   border-radius: .1em;
   padding: .2em .25em .15em;
 }
@@ -339,7 +339,7 @@
   outline: 0;
   color: #333;
   background-color: #fff;
-  border: 1px solid #dae0e5;
+  border: none !important;
   padding: 5px 10px;
   font-size: 14px;
   line-height: 1.4;
@@ -364,7 +364,7 @@
 .note-btn.active,.note-btn.focus,.note-btn:active,.note-btn:focus,.note-btn:hover {
   color: #333;
   text-decoration: none;
-  border: 1px solid #dae0e5;
+  border: none !important;
   background-color: #ebebeb;
   outline: 0;
   border-radius: 1px;
@@ -403,7 +403,7 @@
 .note-btn-primary.focus,.note-btn-primary:focus,.note-btn-primary:hover {
   color: #fff;
   text-decoration: none;
-  border: 1px solid #dae0e5;
+  border: none !important;
   background-color: #fa6362;
   border-radius: 1px;
 }
@@ -744,7 +744,7 @@ a.note-dropdown-item,a.note-dropdown-item:hover {
   font-family: sans-serif;
   display: none;
   background: #fff;
-  border: 1px solid #ccc;
+  border: none !important;
 }
 
 .note-popover.in {
@@ -1271,7 +1271,7 @@ a.note-dropdown-item,a.note-dropdown-item:hover {
   height: 20px;
   padding: 0;
   margin: 0;
-  border: 1px solid #fff;
+  border: none !important;
 }
 
 .note-popover .popover-content .note-color-palette div .note-color-btn:hover,.note-toolbar .note-color-palette div .note-color-btn:hover {
@@ -1299,7 +1299,7 @@ a.note-dropdown-item,a.note-dropdown-item:hover {
   line-height: 4;
   color: #d3d3d3;
   text-align: center;
-  border: 4px dashed #d3d3d3;
+  border: none !important;
   margin-bottom: 10px;
 }
 
