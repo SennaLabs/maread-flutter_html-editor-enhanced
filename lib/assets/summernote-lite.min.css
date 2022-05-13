@@ -465,7 +465,7 @@ button.close {
   float: left;
   text-align: left;
   background: #fff;
-  border: 1px solid #e2e2e2;
+  border: none !important;
   padding: 5px;
   background-clip: padding-box;
   box-shadow: 0 1px 1px rgba(0,0,0,.06);
@@ -947,7 +947,7 @@ a.note-dropdown-item,a.note-dropdown-item:hover {
   display: none;
   width: 100%;
   padding: 10px;
-  border: none;
+  border: none !important;
   box-shadow: none;
   font-family: Menlo,Monaco,monospace,sans-serif;
   font-size: 14px;
@@ -985,7 +985,7 @@ a.note-dropdown-item,a.note-dropdown-item:hover {
   height: 20px;
   margin-bottom: 0;
   color: #000;
-  border: 0;
+  border: none !important;
   border-top: 1px solid #e2e2e2;
 }
 
@@ -1087,7 +1087,7 @@ a.note-dropdown-item,a.note-dropdown-item:hover {
 }
 
 .note-editor.note-airframe {
-  border: 0;
+  border: none !important;
 }
 
 .note-editor.note-airframe .note-editing-area .note-editable {
@@ -1218,7 +1218,7 @@ a.note-dropdown-item,a.note-dropdown-item:hover {
 }
 
 .note-popover .popover-content .note-color .note-dropdown-menu .note-palette .note-holder-custom .note-color-btn,.note-toolbar .note-color .note-dropdown-menu .note-palette .note-holder-custom .note-color-btn {
-  border: 1px solid #eee;
+  border: none !important;
 }
 
 .note-popover .popover-content .note-para .note-dropdown-menu,.note-toolbar .note-para .note-dropdown-menu {
@@ -1275,7 +1275,7 @@ a.note-dropdown-item,a.note-dropdown-item:hover {
 }
 
 .note-popover .popover-content .note-color-palette div .note-color-btn:hover,.note-toolbar .note-color-palette div .note-color-btn:hover {
-  border: 1px solid #000;
+  border: none !important;
 }
 
 .note-modal .modal-dialog {
@@ -1312,7 +1312,7 @@ a.note-dropdown-item,a.note-dropdown-item:hover {
 .note-handle .note-control-selection {
   position: absolute;
   display: none;
-  border: 1px solid #000;
+  border: none !important;
 }
 
 .note-handle .note-control-selection>div {
@@ -1334,7 +1334,7 @@ a.note-dropdown-item,a.note-dropdown-item:hover {
 .note-handle .note-control-selection .note-control-handle,.note-handle .note-control-selection .note-control-holder,.note-handle .note-control-selection .note-control-sizing {
   width: 7px;
   height: 7px;
-  border: 1px solid #000;
+  border: none !important;
 }
 
 .note-handle .note-control-selection .note-control-sizing {
