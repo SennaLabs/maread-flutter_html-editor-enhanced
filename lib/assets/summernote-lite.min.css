@@ -279,7 +279,7 @@
 .note-frame {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
-  color: #fafafa;
+  color: #000;
   font-family: sans-serif;
   border-radius: 4px;
 }
@@ -433,7 +433,7 @@ button.close {
   float: right;
   font-size: 21px;
   line-height: 1;
-  color: #fafafa;
+  color: #000;
   opacity: .2;
 }
 
@@ -952,7 +952,7 @@ a.note-dropdown-item,a.note-dropdown-item:hover {
   font-family: Menlo,Monaco,monospace,sans-serif;
   font-size: 14px;
   color: #ccc;
-  background-color: #fafafa;
+  background-color: #222;
   resize: none;
   outline: none;
   -ms-box-sizing: border-box;
@@ -970,7 +970,7 @@ a.note-dropdown-item,a.note-dropdown-item:hover {
 }
 
 .note-editor.note-airframe.fullscreen .note-editable,.note-editor.note-frame.fullscreen .note-editable {
-  background-color: #fff;
+  background-color: #fafafa !important;
 }
 
 .note-editor.note-airframe.fullscreen .note-resizebar,.note-editor.note-frame.fullscreen .note-resizebar {
@@ -1455,7 +1455,7 @@ a.note-dropdown-item,a.note-dropdown-item:hover {
 }
 
 .note-modal .note-modal-body .help-list-item:hover {
-  background-color: #e0e0e0;
+  background-color: #fafafa;
 }
 
 @-moz-document url-prefix() {
