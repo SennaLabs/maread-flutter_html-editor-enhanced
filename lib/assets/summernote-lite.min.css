@@ -545,11 +545,13 @@ a.note-dropdown-item,a.note-dropdown-item:hover {
   height: 40px;
   padding: 10px;
   text-align: center;
+  visibility: hidden;
 }
 
 .note-modal-footer a {
   color: #337ab7;
   text-decoration: none;
+    visibility: hidden;
 }
 
 .note-modal-footer a:focus,.note-modal-footer a:hover {
