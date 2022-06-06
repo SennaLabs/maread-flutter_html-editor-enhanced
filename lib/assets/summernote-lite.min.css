@@ -294,7 +294,7 @@
     color: #333;
     background-color: #fff !important;
     border-bottom: 1px solid;
-    border-color: #fff !important;
+    border-color: #ddd !important;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 }
@@ -1124,7 +1124,8 @@ a.note-dropdown-item:hover {
     background-color: #fff !important;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    border-top: 1px solid #ddd !important;
+    border-top: 1px solid #fff !important;
+    visibility: hidden !important;
 }
 
 .note-editor.note-airframe .note-statusbar .note-resizebar,
