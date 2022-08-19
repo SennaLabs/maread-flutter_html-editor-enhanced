@@ -636,6 +636,7 @@ a.note-dropdown-item:hover {
 
 .note-form-group {
     padding-bottom: 20px;
+    background-color: #fff !important;
 }
 
 .note-form-group:last-child {
@@ -1159,6 +1160,7 @@ a.note-dropdown-item:hover {
 
 .note-editor.note-airframe {
     border: none !important;
+    background-color: #fff !important;
 }
 
 .note-editor.note-airframe .note-editing-area .note-editable {
