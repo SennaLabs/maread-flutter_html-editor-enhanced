@@ -280,7 +280,7 @@
 .note-frame {
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    color: #fff;
+    color: #fff !important;
     font-family: sans-serif;
     border-radius: 0px;
 }
@@ -543,7 +543,7 @@ a.note-dropdown-item:hover {
     width: auto;
     margin: 30px 20px;
     border: none !important;
-    background: #fff;
+    background: #fff !important;
     background-clip: border-box;
     outline: 0;
     border-radius: 0px;
@@ -562,7 +562,7 @@ a.note-dropdown-item:hover {
 
 .note-modal-body kbd {
     border-radius: 0px;
-    background-color: #fff;
+    background-color: #fff !important;
     color: #fff;
     padding: 3px 5px;
     font-weight: 700;
@@ -655,7 +655,7 @@ a.note-dropdown-item:hover {
     width: 100%;
     display: block;
     border: none !important;
-    background: #fff;
+    background: #fff !important;
     outline: 0;
     padding: 6px 4px;
     font-size: 14px;
@@ -1442,7 +1442,7 @@ a.note-dropdown-item:hover {
 .note-handle .note-control-selection .note-control-selection-bg {
     width: 100%;
     height: 100%;
-    background-color: #fff;
+    background-color: #fff !important;
     -webkit-opacity: .3;
     -khtml-opacity: .3;
     -moz-opacity: .3;
